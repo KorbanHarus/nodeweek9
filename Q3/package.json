@@ -1,0 +1,15 @@
+{
+  "name": "week9",
+  "version": "1.0.0",
+  "description": "None",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4"
+  },
+  "author": "",
+  "license": "ISC"
+}

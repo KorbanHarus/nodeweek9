@@ -1,0 +1,9 @@
+<html>
+    <body>
+        <% for(var i in result) {%>
+        <h1><%=result[i].title %></h1>
+        <img src="data:image/<%=result[i].mimetype%>;base64,<%=result[i].image%>" alt="ouhk">
+        <h1><%=result[i].describe%></h1>
+        <%}%>
+    </body>
+</html>

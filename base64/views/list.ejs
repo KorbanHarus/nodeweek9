@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Photo List</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <ol>
+        <% for (item in result) {%>
+            <li>
+                <a href="/photo?id=<%=result[item]._id%>"><%=result[item].title%></a>    
+            </li>
+        <%} %> 
+        </ol>
+    </body>
+</html>
